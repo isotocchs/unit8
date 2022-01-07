@@ -11,7 +11,7 @@ public class Unit8_1Arrays2D {
 		String [] Students = {"Bob","Tom","John","Mary","Jimmy","Mark"};
 		
 		int [] gradesT1 = {85,90,95,100};
-		int [] gradesT2 = {98,78,88,89};
+		int [] gradesT2 = {98,78,88};
 		int [] gradesT3 = {78,88,98,99};
 		
 		//new int [columns]
@@ -25,7 +25,9 @@ public class Unit8_1Arrays2D {
 				};
 		
 		
-		int [][] allGrades = {gradesT1,gradesT2,gradesT3};
+		int [][] allGrades = {gradesT1,
+							  gradesT2,
+							  gradesT3};
 		
 		//new int [rows][columns]
 		int [][] listOfInts2D = new int[4][10];
@@ -33,12 +35,12 @@ public class Unit8_1Arrays2D {
 		//Sizes of 2D Arrays
 		
 		//number of rows given by .length
-		System.out.println("Number of rows in allGrades: "+allGrades.length);
-		System.out.println("Number of rows in seatingChart: "+seatingChart.length);
+		//System.out.println("Number of rows in allGrades: "+allGrades.length);
+		//System.out.println("Number of rows in seatingChart: "+seatingChart.length);
 		
 		//number of columns given by length of first row.
-		System.out.println("Number of columns in allGrades: "+allGrades[0].length);
-		System.out.println("Number of columns in seatingChart: "+seatingChart[0].length);
+		//System.out.println("Number of columns in allGrades: "+allGrades[0].length);
+		//System.out.println("Number of columns in seatingChart: "+seatingChart[0].length);
 		
 		
 		//Getting the elements in 2D Arrays
@@ -46,8 +48,8 @@ public class Unit8_1Arrays2D {
 		
 		//remember index start at 0 for both rows and columns (first row has index of 0)
 		
-		System.out.println("first row, second column in allGrades: "+allGrades[0][1]);
-		System.out.println("second row, third column in seatingChart: "+seatingChart[1][2]);
+		//System.out.println("first row, second column in allGrades: "+allGrades[0][1]);
+		//System.out.println("second row, third column in seatingChart: "+seatingChart[1][2]);
 		
 		//getting the first thing [0][0]
 		System.out.println("first row, first column in allGrades: "+allGrades[0][0]);
