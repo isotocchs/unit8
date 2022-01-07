@@ -12,6 +12,8 @@ public class Unit8_2Arrays2DTraversal {
 		
 		//number of rows given by .length
 		
+		//System.out.println(nameGrid);
+		
 		for (int row=0; row<nameGrid.length;row++) {
 			
 			//number of columns given by length of first row.
@@ -86,7 +88,7 @@ public class Unit8_2Arrays2DTraversal {
 				{"Bob","Tom","John","James"},
 				{"Mary","Jimmy","Mark","Ralph"},
 				{"Tim","Hugh","Apple","Greg"}
-				}; 
+				};
 		
 		
 		for (int col=0; col<nameGrid[0].length;col++) {
@@ -102,6 +104,19 @@ public class Unit8_2Arrays2DTraversal {
 			
 		}
 		
+		System.out.println();
+		
+		for(String[] row:nameGrid) {
+			
+			for (String name:row) {
+				
+				System.out.print(name+" ");
+				
+			}
+			
+			System.out.println();
+		}
+		
 		
 	}
 	
@@ -109,7 +124,7 @@ public class Unit8_2Arrays2DTraversal {
 		
 		for (int row=0; row<input2DArray.length;row++) {
 			
-			for (int col = 0; col<input2DArray[0].length;col++) {
+			for (int col = 0; col<input2DArray[row].length;col++) {
 				
 				if(input2DArray[row][col].equals(lookingFor)) {
 					return true;
@@ -139,9 +154,24 @@ public class Unit8_2Arrays2DTraversal {
 		return longest;
 	}
 	
-//	public double percentBiggerThan2(int[][] input2DArray) {
-//		
-//		
-//	}
+	public double percentBiggerThan2(int[][] input2DArray) {
+		int count1=0;
+		int count2=0;
+		
+		for(int[] row:input2DArray) {
+			
+			for(int col:row) {
+				
+				count2++;
+				if(col>2) {
+					count1++;	
+				}
+				
+			}
+			
+		}
+		return count2;
+		
+	}
 
 }

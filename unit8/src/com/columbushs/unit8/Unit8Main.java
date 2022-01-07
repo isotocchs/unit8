@@ -11,28 +11,30 @@ public class Unit8Main {
 		
 		Unit8_2Arrays2DTraversal twoDTrav = new Unit8_2Arrays2DTraversal();
 		
-		twoDTrav.TwoDArrayTravFor();
+		//twoDTrav.TwoDArrayTravFor();
 		
 		//twoDTrav.TwoDArrayTravEnhanced();
 		
 		//twoDTrav.TwoDArrayTravRowMajor();
 		
-		//twoDTrav.TwoDArrayTravColMajor();
+		twoDTrav.TwoDArrayTravColMajor();
 
 		
 		String[][] fruits = {{"Apple","Bannana","Melon","Strawberries"},
 							 {"Cherry","Blueberry","Clementine","Coconut"},
 							 {"Orange","Grapefruit","Mango","Mamey"}};
 		
-		boolean isItThere = twoDTrav.TwoDArraySearch(fruits, "Orange");
-		System.out.println(isItThere);
-		
-		System.out.println(twoDTrav.findLongest(fruits));
+//		boolean isItThere = twoDTrav.TwoDArraySearch(fruits, "Tom");
+//		System.out.println(isItThere);
+//		
+		//System.out.println(twoDTrav.findLongest(fruits));
 		
 		
 		
 		
 		int[][] someNumbers = {{1,2,3,4,1},{2,4,1,0,4},{2,3,1,1,1},{3,5,6,2,3}};
+		
+		//System.out.println(twoDTrav.percentBiggerThan2(someNumbers));
 		
 	}	
 
