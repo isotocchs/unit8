@@ -22,7 +22,7 @@ public class Unit8_1Arrays2D {
 		String [][] seatingChart = { 
 				{"Bob","Tom","John"},
 				{"Mary","Jimmy","Mark"}
-				};
+				}; 
 		
 		
 		int [][] allGrades = {gradesT1,
