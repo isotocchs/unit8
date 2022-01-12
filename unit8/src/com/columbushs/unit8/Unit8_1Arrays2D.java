@@ -35,12 +35,12 @@ public class Unit8_1Arrays2D {
 		//Sizes of 2D Arrays
 		
 		//number of rows given by .length
-		//System.out.println("Number of rows in allGrades: "+allGrades.length);
-		//System.out.println("Number of rows in seatingChart: "+seatingChart.length);
+		System.out.println("Number of rows in allGrades: "+allGrades.length);
+		System.out.println("Number of rows in seatingChart: "+seatingChart.length);
 		
 		//number of columns given by length of first row.
-		//System.out.println("Number of columns in allGrades: "+allGrades[0].length);
-		//System.out.println("Number of columns in seatingChart: "+seatingChart[0].length);
+		System.out.println("Number of columns in allGrades: "+allGrades[0].length);
+		System.out.println("Number of columns in seatingChart: "+seatingChart[0].length);
 		
 		
 		//Getting the elements in 2D Arrays

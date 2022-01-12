@@ -17,17 +17,18 @@ public class Unit8Main {
 		
 		//twoDTrav.TwoDArrayTravRowMajor();
 		
-		twoDTrav.TwoDArrayTravColMajor();
+		//twoDTrav.TwoDArrayTravColMajor();
 
-		
-		String[][] fruits = {{"Apple","Bannana","Melon","Strawberries"},
+		 
+		 
+		String[][] fruits = {{"Apple","Bannana","Melon","Strawb"},
 							 {"Cherry","Blueberry","Clementine","Coconut"},
 							 {"Orange","Grapefruit","Mango","Mamey"}};
 		
-//		boolean isItThere = twoDTrav.TwoDArraySearch(fruits, "Tom");
-//		System.out.println(isItThere);
+		boolean isItThere = twoDTrav.TwoDArraySearch(fruits, "Mango");
+	System.out.println(isItThere);
 //		
-		//System.out.println(twoDTrav.findLongest(fruits));
+		System.out.println(twoDTrav.findLongest(fruits));
 		
 		
 		

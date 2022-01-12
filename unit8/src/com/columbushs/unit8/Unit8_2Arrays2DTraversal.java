@@ -6,7 +6,7 @@ public class Unit8_2Arrays2DTraversal {
 		
 		String [][] nameGrid = { 
 				{"Bob","Tom","John","James"},
-				{"Mary","Jimmy","Mark","Ralph"},
+				{"Mary","Jimmy","Mark"},
 				{"Tim","Hugh","Apple","Greg"}
 				}; 
 		
