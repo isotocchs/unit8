@@ -77,11 +77,11 @@ public class Unit8_1Arrays2D {
 		
 		//remember index start at 0 for both rows and columns (first row has index of 0)
 		
-		System.out.println("first row, second column in allGrades: "+allGrades[0][1]);
+		System.out.println("first row, second column in allGrades: "+allGrades[0][0]);
 		System.out.println("second row, third column in seatingChart: "+seatingChart[1][2]);
 		
 		//getting the first thing [0][0]
-		System.out.println("first row, first column in allGrades: "+allGrades[0][0]);
+		// System.out.println("first row, first column in allGrades: "+allGrades[0][0]);
 		//getting the last thing [allGrades.length-1][allGrades[0].length-1] (remember last index value is length-1)
 		System.out.println("last row, last column in allGrades: "+allGrades[allGrades.length-1][allGrades[allGrades.length-1].length-1]);
 		
