@@ -8,7 +8,7 @@ public class Unit8Main {
 		
 		Unit8_1Arrays2D twoDArrays = new Unit8_1Arrays2D();
 		
-		twoDArrays.TwoDArrayMethods();
+		// twoDArrays.TwoDArrayMethods();
 		
 		Unit8_2Arrays2DTraversal twoDTrav = new Unit8_2Arrays2DTraversal();
 		
@@ -18,7 +18,7 @@ public class Unit8Main {
 		
 		// twoDTrav.TwoDArrayTravRowMajor();
 		
-		// twoDTrav.TwoDArrayTravColMajor();
+		twoDTrav.TwoDArrayTravColMajor();
 
 		 
 		 

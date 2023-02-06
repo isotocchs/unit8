@@ -13,9 +13,9 @@ public class Unit8_1Arrays2D {
 		
 		String [] Students = {"Bob","Tom","John","Mary","Jimmy","Mark"};
 		
-		int [] gradesT1 = {85,90,95};
-		int [] gradesT2 = {98,78,88};
-		int [] gradesT3 = {78,88,98,99};
+		// int [] gradesT1 = {85,90,95};
+		// int [] gradesT2 = {98,78,88};
+		// int [] gradesT3 = {78,88,98,99};
 		
 		//new int [columns]
 		int [] listOfInts  = new int[5];
@@ -33,20 +33,19 @@ public class Unit8_1Arrays2D {
 		// 2D
 		
 		String [][] seatingChart = { 
-				Students,
+			{"Bob","Tom","John","Mary","Jimmy","Mark"},
 				{"Mary","Jimmy","Mark"}
 				}; 
 		
+		int [] gradesT1 = {85,90,95};
+		int [] gradesT2 = {98,78,88};
+		int [] gradesT3 = {78,88,98,99};
 		
-		int [][] allGrades = {gradesT1,
-							  gradesT2,
-							  gradesT3};
+		int [][] allGrades = {gradesT1,gradesT2,gradesT3};
 		
 		//new int [rows][columns]
 		int [][] listOfInts2D = new int[4][10];
 
-
-		
 		//Sizes of 2D Arrays
 		
 		//number of rows given by .length
@@ -60,11 +59,26 @@ public class Unit8_1Arrays2D {
 		
 		//Getting the elements in 2D Arrays
 		//[row][column]
+		// int [] gradesT1 = {85,90,95};
+		// int [] gradesT2 = {98,78,88};
+		// int [] gradesT3 = {78,88,98,99};
+
+		// int [][] allGrades = {gradesT1,gradesT2,gradesT3};
+
+
+		// allGrades[allGrades.length-1][allGrades[allGrades.length-1].length-1]
+
+		// String [][] seatingChart = { 
+		// 	{"Bob","Tom","John","Mary","Jimmy","Mark"},
+		// 		{"Mary","Jimmy","Mark"}
+		// 		}; 
+		
+		// int [][] allGrades = {gradesT1,gradesT2,gradesT3};
 		
 		//remember index start at 0 for both rows and columns (first row has index of 0)
 		
-		// System.out.println("first row, second column in allGrades: "+allGrades[0][1]);
-		// System.out.println("second row, third column in seatingChart: "+seatingChart[1][2]);
+		System.out.println("first row, second column in allGrades: "+allGrades[0][1]);
+		System.out.println("second row, third column in seatingChart: "+seatingChart[1][2]);
 		
 		//getting the first thing [0][0]
 		System.out.println("first row, first column in allGrades: "+allGrades[0][0]);

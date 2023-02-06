@@ -17,7 +17,7 @@ public class Unit8_2Arrays2DTraversal {
 			
 			//number of columns given by length of first row.
 			
-			for (int col = 0; col<nameGrid[0].length;col++) {
+			for (int col = 0; col<nameGrid[row].length;col++) {
 				
 				System.out.print(nameGrid[row][col] + " ");
 			}
@@ -85,7 +85,7 @@ public class Unit8_2Arrays2DTraversal {
 		
 		String [][] nameGrid = { 
 				{"Bob","Tom","John","James"},
-				{"Mary","Jimmy","Mark","Ralph"},
+				{"Mary","Jimmy","Mark"},
 				{"Tim","Hugh","Apple","Greg"}
 				};
 		
