@@ -21,11 +21,11 @@ public class Unit8Main {
 
 		 
 		 
-		String[][] fruits = {{"Apple","Bannana","Melon","Strawb"},
-							 {"Cherry","Blueberry","Clementine","Coconut"},
-							 {"Orange","Grapefruit","Mango","Mamey"}};
+		// String[][] fruits = {{"Apple","Bannana","Melon","Strawb"},
+		// 					 {"Cherry","Blueberry","Clementine","Coconut"},
+		// 					 {"Orange","Grapefruit","Mango","Mamey"}};
 		
-		boolean isItThere = twoDTrav.TwoDArraySearch(fruits, "Mango");
+		// boolean isItThere = twoDTrav.TwoDArraySearch(fruits, "Mango");
 	// System.out.println(isItThere);
 //		
 		// System.out.println(twoDTrav.findLongest(fruits));
